@@ -1,32 +1,32 @@
 <!DOCTYPE html>
 <html>
 
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width">
-	<title>repl.it</title>
-	<link href="style.css" rel="stylesheet" type="text/css" />
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
-	 crossorigin="anonymous">
-</head>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+  </head>
 
-<body>
-	<h1 class="h1" style="text-align:center;font-weight:bold">Zaini Bank</h1>
+  <body>
+    <h1 class="h1" style="text-align:center;font-weight:bold">Zaini Bank</h1>
 
-	<center>
-		<h2 id="balance" class="h2" style="text-align:left;background-color:#C1CFDA;padding:15px;min-width:100px;display: inline-block;border:6px solid transparent;border-radius:15px">Balance: 0</h2>
-	</center>
+    <center>
+      <h2 id="balance" class="h2" style="text-align:left;background-color:#C1CFDA;padding:15px;min-width:100px;display: inline-block;border:6px solid transparent;border-radius:15px">Balance: 0</h2>
+    </center>
 
-  <p1 style="font-weight:bold;padding:10px;font-size:20px">Overdraft Limit: -5000</p1>
+    <p1 style="font-weight:bold;padding:10px;font-size:20px">Overdraft Limit: -5000</p1>
 
-	<div class="input-group mb-3 padd">
-		<input id="deposit" type="text" class="form-control" placeholder="Amount to deposit" aria-label="Recipient's username" aria-describedby="button-addon2">
-  <button style="background-color:#D8314A;color:#03191E" class="btn btn-outline-secondary" type="button" id="button-addon2" onclick="deposit()">Deposit</button>
-</div>
     <div class="input-group mb-3 padd">
-  <input id="withdraw" type="text" class="form-control" placeholder="Amount to withdraw" aria-label="Recipient's username" aria-describedby="button-addon2">
-  <button onclick="withdraw()" style="background-color:#20A4F3;color:#03191E" class="btn btn-outline-secondary" type="button" id="button-addon2">Withdraw</button>
-</div>
+      <input id="deposit" type="text" class="form-control" placeholder="Amount to deposit" aria-label="Recipient's username" aria-describedby="button-addon2">
+      <button style="background-color:#D8314A;color:#03191E" class="btn btn-outline-secondary" type="button" id="button-addon2" onclick="deposit()">Deposit</button>
+    </div>
+    <div class="input-group mb-3 padd">
+      <input id="withdraw" type="text" class="form-control" placeholder="Amount to withdraw" aria-label="Recipient's username" aria-describedby="button-addon2">
+      <button onclick="withdraw()" style="background-color:#20A4F3;color:#03191E" class="btn btn-outline-secondary" type="button" id="button-addon2">Withdraw</button>
+    </div>
     <script src="script.js"></script>
   </body>
+
 </html>
