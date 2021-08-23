@@ -1,0 +1,11 @@
+.padd {
+  margin: auto;
+  padding-left: 20px;
+  padding-right: 200px;
+  padding-top: 20px;
+}
+
+.h1 {
+  padding-top: 10px;
+  padding-bottom: 10px
+}
